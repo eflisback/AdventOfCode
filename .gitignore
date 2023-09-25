@@ -6,3 +6,6 @@
 
 # Advent of Code does not want contestants to share their puzzle input. Please get your own data at https://adventofcode.com/
 data.txt
+
+# Compiled code
+*.class
