@@ -74,10 +74,8 @@ class A {
 			if (gameItems.get(yourPickIndex).getDefeats() == opponentPick) {
 				score += 6;
 			} else if (gameItems.get(yourPickIndex).getTiedWith() == opponentPick) {
-
 				score += 3;
 			}
-
 		}
 		System.out.println(score);
 	}
