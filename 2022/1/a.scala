@@ -6,10 +6,12 @@ import scala.collection.mutable.Queue
   var sums: Queue[Int] = Queue()
   var currentSum = 0
 
-  for (line <- lines) {
-    if !line.isEmpty() then currentSum += line.toInt
-    else { sums += currentSum; currentSum = 0 }
+  val highestSum = {
+    for (line <- lines)
+      if !line.isEmpty() then currentSum += line.toInt
+      else { sums += currentSum; currentSum = 0 }
+    sums.max
   }
 
-  println(sums.max)
+  println(highestSum)
 }
