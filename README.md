@@ -9,6 +9,7 @@ I've already done some of this year´s challanges once. So in order to make it e
 ### Schedule
 
 Day no.
+
 1. Scala
 2. Java
 3. Ruby
