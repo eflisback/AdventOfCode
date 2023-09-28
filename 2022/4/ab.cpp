@@ -13,12 +13,10 @@ bool rangesOverlap(int rangeAStart, int rangeAEnd, int rangeBStart, int rangeBEn
     {
         rangeA.push_back(i);
     }
-
     for (int i = rangeBStart; i <= rangeBEnd; i++)
     {
         rangeB.push_back(i);
     }
-
     for (int i = 0; i < rangeA.size(); i++)
     {
         for (int j = 0; j < rangeB.size(); j++)
@@ -29,7 +27,6 @@ bool rangesOverlap(int rangeAStart, int rangeAEnd, int rangeBStart, int rangeBEn
             }
         }
     }
-
     return false;
 }
 
@@ -75,6 +72,5 @@ int main()
 
     std::cout << fullyContainCount << std::endl;
     std::cout << overlapCount << std::endl;
-
     return 0;
 }

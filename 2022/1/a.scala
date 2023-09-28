@@ -11,7 +11,5 @@ import scala.collection.mutable.Queue
       else { sums += currentSum; currentSum = 0 }
     sums.max
   }
-
   println(highestSum)
-
 }

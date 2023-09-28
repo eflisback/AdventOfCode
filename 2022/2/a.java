@@ -29,7 +29,6 @@ class A {
 			public char getTiedWith() {
 				return tiedWith;
 			}
-
 		}
 
 		Path path = Paths.get("2022/2/data.txt");
